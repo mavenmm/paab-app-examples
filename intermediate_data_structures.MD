@@ -22,7 +22,7 @@ A single text node from the PDF JSON output from pdf2json:
 
 2. Processed Node (after getNode.js)
 
-```json
+```javascript
 {
   x: 4.106,
   y: 19.64,
@@ -39,7 +39,7 @@ A single text node from the PDF JSON output from pdf2json:
 
 3. Header Information (from getHeader.js)
 
-```json
+```javascript
 {
   addressLineOne: "Pharmaceutical Advertising Advisory Board",
   addressLineTwo: "PO Box 70 STN Main, Pickering, Ontario L1V 2R2",
@@ -61,7 +61,7 @@ A single text node from the PDF JSON output from pdf2json:
 
 For the first page:
 
-```json
+```javascript
 [
   [19.64, 23.034],  // Comment 1
   [23.034, 25.678], // Comment 2
@@ -75,7 +75,7 @@ For the first page:
 
 6. Raw Comment Text Nodes (for Comment 1). 
 
-```json
+```javascript
 [
   // First node
   {
@@ -131,7 +131,7 @@ Page 2. Preliminary comment. Please note that the header "discover the power of"
 
 Raw nodes with bullet markers:
 
-```json
+```javascript
 [
   // Main text
   { text: "The first subhead and its associated copy must have the relevant study details...", y: 25.678 },
@@ -167,7 +167,7 @@ The first subhead and its associated copy must have the relevant study details (
 
 10. Final Structured Output
 
-```json
+```javascript
 {
   header: {
     addressLineOne: "Pharmaceutical Advertising Advisory Board",
