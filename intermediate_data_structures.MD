@@ -1,6 +1,9 @@
 # Intermediate Data Examples from PAAB PDF Processing #
 
 Based on the provided JSON example, here's how the data would look at different stages of processing:
+
+- This example uses the data from the example files PAAB-129764-01.pdf and PAAB-129764-01.json
+
 1. Raw Node Example
 A single text node from the PDF JSON output from pdf2json:
 
@@ -163,6 +166,10 @@ The first subhead and its associated copy must have the relevant study details (
 
 10. Approval Information (from getApproval.js)
 
+```javascript
+{
+  approvalID: null // Since there are comments, no approval ID
+}
 ```
 
 10. Final Structured Output
